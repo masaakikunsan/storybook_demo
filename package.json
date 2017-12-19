@@ -10,7 +10,7 @@
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js",
-    "serve:heroku": "http-server serve -p $PORT",
+    "serve:heroku": "start-storybook -p $PORT",
     "build-storybook": "build-storybook",
     "heroku-postbuild": "build-storybook -o serve"
   },
