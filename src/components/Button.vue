@@ -1,6 +1,6 @@
 <template>
   <button
-    @click="handleClick"
+    @click="onClick"
     :disabled="disabled||false"
     :class="[
     'button',
@@ -30,7 +30,8 @@ export default {
     }
   },
   methods: {
-    onclick (e) {
+    onClick (e) {
+      console.log('test');
       this.$emit('click', e)
     }
   }
