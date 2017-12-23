@@ -16,7 +16,7 @@ storiesOf('Usage button', module)
       color: default, primary, success, info, warning, danger, dark
     `
   )(() => {
-    const ButtonText = text('text', 'defaul')
+    const ButtonText = text('text', 'default')
     const size = text('size', 'large')
     const color = text('color', 'default')
     return {
